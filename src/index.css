@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+.animate-spin {
+    animation: var(--animate-spin);
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
